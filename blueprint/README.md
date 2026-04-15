@@ -42,15 +42,9 @@ Run the full cycle with one command (`/blueprint:build`) or use individual skill
 
 ### Claude Code (plugin marketplace)
 
-```
-/install owainlewis/blueprint
-```
 
 ### npx skills (Claude Code, Codex, Cursor, OpenCode, and 40+ others)
 
-```bash
-npx skills add owainlewis/blueprint -a claude-code -g
-```
 
 ## Skills
 
@@ -112,12 +106,6 @@ Regenerate the examples after changing skills:
 ./examples/regenerate.sh
 ```
 
-## Updating
-
-```
-claude plugin update blueprint@owainlewis-blueprint
-```
-
 ## Releasing (for contributors)
 
 ```bash
@@ -131,7 +119,3 @@ claude plugin update blueprint@owainlewis-blueprint
 ```bash
 claude --plugin-dir /path/to/blueprint
 ```
-
-## Learn More
-
-https://www.skool.com/aiengineer
